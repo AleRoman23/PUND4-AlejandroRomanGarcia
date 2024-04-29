@@ -6,7 +6,9 @@ package pund4;
 
 /**
  *
- * @author javie
+ * @author Alejandro Román García 
+ * @version 1.0
+ * @since 29-04-2024
  */
 public class PUND4 {
 
@@ -22,7 +24,11 @@ public class PUND4 {
         mi_dinero = laApuesta.getDinero_disp();
         System.out.println("El dinero que tengo tras las apuestas es " + mi_dinero);
     }
-
+/**
+ * 
+ * @param laApuesta
+ * @param dinero 
+ */
     static void operativa_Apuesta(Apuesta laApuesta, Integer dinero) {
         try {
             System.out.println("Apostando...");
